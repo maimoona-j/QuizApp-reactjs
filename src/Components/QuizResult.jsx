@@ -526,7 +526,7 @@ export default function QuizResult({ questions, userAnswers, handleRestart }) {
         <h3 className="font-bold lg:text-3xl text-xl mt-24 text-green-600">Good Job!</h3>
 
         <p className="font-bold mt-3 ">
-        Practice again by clicking on restart button 
+        Correct Answers of all the questions
         </p>
         <ul>
           {questions.map((question) => (
