@@ -85,7 +85,7 @@ export default function QuizDetail({
               </label>
             ))}
           </div>
-          <div className="lg:mt-16 mt-8 lg:ml-[200px] ml-8 absolute lg:bottom-[25%] bottom-[25%] left-[10%]  lg:p-0 p-8  lg:left-[25%] right-0">
+          <div className="lg:mt-16 mt-8 lg:ml-[200px] ml-8 absolute lg:bottom-[25%] sm:bottom-[25%] md:bottom-[20%] left-[10%]  lg:p-0 p-8  lg:left-[25%] right-0">
             <button
               className="bg-blue-300 hover:bg-gray-300 font-bold p-3 lg:w-36 w-16 rounded"
               onClick={handleBack}
