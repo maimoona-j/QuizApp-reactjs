@@ -55,7 +55,7 @@
         correctAnswer:"option2",
       },
       {
-        question: "Question 6",
+        question: "Last Question",
         text: "Which of the following is correct about features of JavaScript?",
         options:[
           {id:"option1", text:" JavaScript is is complementary to and integrated with HTML"},
