@@ -62,7 +62,7 @@ export default function QuizDetail({
       {showResult ? (
         <QuizResult />
       ) : (
-        <div className="border border-blue-600 w-[300px] lg:w-[800px] lg:h-[450px] h-[480px] ml-11 lg:ml-[330px] mt-10 p-8 rounded shadow-lg">
+        <div className="border border-blue-600 w-[300px] lg:w-[700px] lg:h-[450px] h-[480px] ml-11 lg:ml-[420px] mt-10 p-8 rounded shadow-lg">
           <h3 className="font-bold">{currentQuestion.question}</h3>
           <p className="text-xl mt-2">{currentQuestion.text}</p>
 
